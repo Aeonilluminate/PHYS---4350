@@ -5,11 +5,12 @@ import cmath
 
 #define our function
 def f(x):
-    return np.sin(4*x)
-    #return 4*np.sin(x)
-    #return np.sin(4*x) + 4*np.sin(10*x)
-    #return 50*np.sin(4*x) + np.sin(10*x)
-    #return x
+    # return np.sin(4*x)
+    # return 4*np.sin(x)
+    # return np.sin(4*x) + 4*np.sin(10*x)
+    # return 50*np.sin(4*x) + np.sin(10*x)
+    # return x
+    return np.sin(x/2)
 
 #define function to calculate coefficients c_k given a set of function values y
 def dftcoeff(y):
@@ -21,7 +22,7 @@ def dftcoeff(y):
     return c
 
 N = 100
-L = 2*math.pi
+L = 4*math.pi
 x1=np.linspace(0,L,N)
 y1 = f(x1)
 

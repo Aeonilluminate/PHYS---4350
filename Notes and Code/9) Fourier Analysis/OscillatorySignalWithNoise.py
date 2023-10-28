@@ -12,7 +12,7 @@ def dftcoeff(y):
             c[k] += y[n]*cmath.exp(-2j*cmath.pi*k*n/N)#imaginary number in Python is j and it must be paired with a number!
     return c
 
-y1 = np.loadtxt("pitch.txt",float)
+y1 = np.loadtxt("Notes and Code\9) Fourier Analysis\pitch.txt",float)
 
 c1 = dftcoeff(y1)
 
