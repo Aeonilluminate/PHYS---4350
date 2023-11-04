@@ -58,6 +58,7 @@ b=np.arange(-0.5,101.5,1)#bin edges from -0.5 to 100.5, so there's one bin for e
 plt.hist2d(x,y,weights=w,bins=b)
 plt.xlabel("x (cm)")
 plt.ylabel("y (cm)")
+plt.title("Potential (V)")
 plt.axis("square")
 plt.xlim(-0.5,100.5)
 plt.ylim(-0.5,100.5)

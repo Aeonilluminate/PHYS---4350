@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import cmath
 import numpy.fft as fft
 
-y = np.loadtxt("dow.txt",float)
+y = np.loadtxt("Notes and Code\9) Fourier Analysis\dow.txt",float)
 
 plt.figure(1)
 plt.plot(y)
